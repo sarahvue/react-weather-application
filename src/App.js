@@ -5,13 +5,14 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="Phoenix"/>
         <footer>
           <p>
             This project was coded by Sarah and is open-sourced.{" "}
             <a
               href="https://github.com/sarahvue/react-weather-application"
               target="_blank"
+              rel="noreferrer"
             >
               View Repo Here.
             </a>
